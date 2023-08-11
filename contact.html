@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="appartement.css">
+    <ul class="topnav">
+        <li> <a  href="./house.html">House</a></li>
+        <li> <a  href="./appartement.html">Appartement</a></li>
+        <li> <a  href="./terrain.html">terrain</a></li>
+    </ul>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <div class="container">
+        <div class="row">
+                <h1>contact us</h1>
+        </div>
+        <div class="row">
+                <h4 style="text-align:center"> If you are interested please fill out this form </h4>
+        </div>
+        <div class="row input-container">
+                <div class="col-xs-12">
+                    <div class="styled-input wide">
+                        <input type="text"  id="name" required />
+                        <label>Name</label> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="styled-input">
+                        <input type="text" required />
+                        <label id="email">Email</label> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="styled-input" style="float:right;">
+                        <input type="text" required />
+                        <label id="phone">Phone Number</label> 
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="styled-input wide">
+                        <textarea required></textarea>
+                        <label id="msg">Message</label>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <button class="btn-lrg submit-btn" id="msg" onclick="msg()">Send Message</button>
+                </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
